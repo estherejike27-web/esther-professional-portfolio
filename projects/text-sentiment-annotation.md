@@ -97,3 +97,30 @@ This project uses a small, manually created sample dataset for demonstration and
 - Documentation and reporting.
 
 **Project Status:** Completed sample annotation exercise.
+
+## 11. Difficult Cases and Annotation Decisions
+
+This section demonstrates how ambiguous customer feedback was reviewed and classified using consistent annotation guidelines.
+
+| Customer Feedback | Label | Decision Rationale |
+|---|---|---|
+| The product is good, but delivery was disappointing. | MIXED | Positive product opinion combined with negative delivery experience. |
+| It was okay, nothing special. | NEUTRAL | No strong positive or negative sentiment. |
+| I love the product, but customer service was terrible. | MIXED | Expresses satisfaction with the product and dissatisfaction with service. |
+| I will never order from this company again. | NEGATIVE | Clearly communicates dissatisfaction and rejection. |
+| Absolutely amazing service! | POSITIVE | Strong expression of satisfaction. |
+
+### 12. Annotation Quality Standards
+
+- Applied consistent labeling rules across all examples.
+- Considered the full context of each customer statement.
+- Avoided assigning sentiment based on isolated keywords.
+- Reviewed ambiguous statements before making final decisions.
+- Provided a clear rationale for each classification.
+
+### 13. Project Outcome
+
+The exercise demonstrates practical understanding of text sentiment annotation, classification guidelines, decision-making, and quality control.
+
+**Project Status:** Completed sample annotation and quality review exercise.
+
