@@ -42,3 +42,58 @@ This exercise demonstrates text classification, sentiment analysis, guideline in
 
 **Project Type:** Practice Portfolio Demonstration  
 **Category:** Data Annotation and AI Evaluation
+
+
+## 6. Annotated Dataset and Decision Rationale
+
+The following sample dataset demonstrates how customer feedback is classified using the defined sentiment labels.
+
+| ID | Customer Feedback | Label | Reason |
+|---|---|---|---|
+| 001 | The delivery was fast and the product exceeded my expectations. | POSITIVE | Expresses satisfaction with delivery and product quality. |
+| 002 | I am unhappy with the poor customer service. | NEGATIVE | Clearly communicates dissatisfaction. |
+| 003 | My order was delivered on Monday. | NEUTRAL | Provides factual information without emotional language. |
+| 004 | The product is excellent, but the packaging was damaged. | MIXED | Contains both positive and negative opinions. |
+| 005 | I would definitely recommend this service. | POSITIVE | Expresses approval and recommendation. |
+| 006 | The application keeps crashing whenever I log in. | NEGATIVE | Reports a frustrating technical problem. |
+| 007 | The store opens at 9 a.m. | NEUTRAL | States information without expressing an opinion. |
+| 008 | I love the product, although the price is too high. | MIXED | Expresses satisfaction alongside dissatisfaction. |
+| 009 | The support team resolved my issue quickly. | POSITIVE | Expresses satisfaction with customer support. |
+| 010 | I have not received my refund despite several complaints. | NEGATIVE | Communicates dissatisfaction with an unresolved issue. |
+
+## 7. Annotation Summary
+
+A total of 10 sample statements were reviewed and classified.
+
+| Sentiment | Number of Samples |
+|---|---:|
+| Positive | 3 |
+| Negative | 3 |
+| Neutral | 2 |
+| Mixed | 2 |
+| **Total** | **10** |
+
+## 8. Quality Assurance and Validation
+
+The following checks were applied during the annotation process:
+
+- Reviewed each statement before assigning a label.
+- Applied the same classification guidelines consistently.
+- Distinguished neutral statements from emotional opinions.
+- Identified mixed sentiment where positive and negative opinions appeared together.
+- Checked that each assigned label matched the explanation.
+- Reviewed ambiguous wording to reduce classification errors.
+
+## 9. Project Limitations
+
+This project uses a small, manually created sample dataset for demonstration and learning purposes. The results should not be interpreted as a benchmark of annotation accuracy on a large real-world dataset.
+
+## 10. Skills Demonstrated
+
+- Text classification and sentiment analysis.
+- Annotation guideline interpretation.
+- Critical thinking and decision-making.
+- Quality assurance and consistency checks.
+- Documentation and reporting.
+
+**Project Status:** Completed sample annotation exercise.
