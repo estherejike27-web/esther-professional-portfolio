@@ -37,3 +37,81 @@ This project demonstrates my ability to evaluate AI-generated responses based on
 - Quality assessment
 - Attention to detail
 - Written feedback and rationale
+
+## 4. AI Response Evaluation Dataset
+
+The following examples demonstrate how AI-generated responses can be assessed against defined quality standards.
+
+| ID | User Prompt | Evaluation Finding | Rating |
+|---|---|---|---|
+| 001 | What is the capital of France? | The response correctly identifies Paris. | PASS |
+| 002 | Explain photosynthesis briefly. | The response provides a clear and relevant explanation. | PASS |
+| 003 | List three benefits of exercise. | The response provides only two benefits. | FAIL |
+| 004 | What is 15 multiplied by 4? | The response incorrectly states 50 instead of 60. | FAIL |
+| 005 | Explain the water cycle in simple terms. | The response follows the instruction and uses clear language. | PASS |
+
+## 5. Evaluation Scoring Framework
+
+Each AI response is assessed using five criteria.
+
+| Criterion | Score Range |
+|---|---|
+| Accuracy | 1–5 |
+| Relevance | 1–5 |
+| Clarity | 1–5 |
+| Completeness | 1–5 |
+| Instruction Following | 1–5 |
+
+**Scoring Guide:**
+- 5: Excellent
+- 4: Good
+- 3: Acceptable
+- 2: Poor
+- 1: Very Poor
+
+## 6. Error Identification and Analysis
+
+Common issues identified during response evaluation include:
+
+- Factual inaccuracies and incorrect information.
+- Incomplete answers that omit important details.
+- Responses that do not address the user's actual question.
+- Failure to follow explicit instructions.
+- Unclear or confusing explanations.
+
+## 7. Evaluation Rationale
+
+Every evaluation decision should be supported by a clear explanation.
+
+Example:
+
+**User Prompt:** What is 15 multiplied by 4?
+
+**AI Response:** 50.
+
+**Evaluation:** FAIL.
+
+**Rationale:** The response is factually incorrect. The correct answer is 60. This demonstrates an accuracy failure.
+
+## 8. Quality Assurance
+
+- Reviewed responses against the original user prompts.
+- Checked factual accuracy and relevance.
+- Verified that instructions were followed.
+- Identified incomplete and misleading answers.
+- Ensured evaluation decisions had clear supporting reasons.
+
+## 9. Project Limitations
+
+This project uses manually created examples for demonstration and learning purposes. It does not represent a large-scale benchmark or independently validated AI evaluation study.
+
+## 10. Skills Demonstrated
+
+- AI-generated response evaluation.
+- Critical thinking and analytical judgment.
+- Factual accuracy verification.
+- Error identification and classification.
+- Quality assurance and documentation.
+- Evaluation rationale writing.
+
+**Project Status:** Completed sample AI response evaluation exercise.
